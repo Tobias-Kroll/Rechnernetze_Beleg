@@ -1,4 +1,4 @@
-# README_MEETING.md
+# README.md
 
 ## Zweck
 Implementierung eines ARQ-Protokolls (Go-Back-N) zur **zeilenweisen** Übertragung einer Textdatei über **UDP/IPv6**.
