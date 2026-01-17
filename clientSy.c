@@ -431,6 +431,7 @@ int arqSendHello(int winSize)
 
         // Antwort auswerten
         if (ans->AnswType == AnswHello || ans->AnswType == AnswOk) {
+            resetSenderState(winSize);
             return 0; // Erfolg
         }
         if (ans->AnswType == AnswErr) {
