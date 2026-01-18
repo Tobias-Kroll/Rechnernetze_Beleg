@@ -30,36 +30,21 @@ static void usage(const char *progName)
  */
 static int readAppUnit(struct app_unit *app, FILE *f)
 {
-    /* TODO: Eine Zeile einlesen */
-    char *result;
-    
     if (!app || !f) {
         return -1;
     }
-    
-    result = fgets((char *)app->data, sizeof(app->data), f);
-    
-    if (result == NULL) {
+
+    if (!fgets((char *)app->data, sizeof(app->data), f)) {
         if (ferror(f)) {
-            return -1;  /* Fehler */
+            return -1;   // Fehler
         }
-        return 0;  /* EOF */
+        return 0;        // EOF
     }
-    
-    /* Länge berechnen (ohne Newline, wenn vorhanden) */
-    app->len = strlen((char *)app->data);
-    if (app->len > 0 && app->data[app->len - 1] == '\n') {
-        app->len--;
-        app->data[app->len] = '\0';
-    }
-    
-    /* Leere Zeilen (nur Newline) überspringen */
-    if (app->len == 0) {
-        return readAppUnit(app, f);  /* Nächste Zeile lesen */
-    }
-    
-    return 1;  /* Daten gelesen */
+
+    app->len = strlen((char *)app->data);  // inkl. '\n'
+    return app->len;                       // <-- WICHTIG
 }
+
 
 int main(int argc, char *argv[])
 {
