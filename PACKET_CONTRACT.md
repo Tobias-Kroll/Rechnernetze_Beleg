@@ -46,14 +46,23 @@ Es enthält sowohl Pflichtvorgaben aus der Aufgabenstellung (Semantik/Verhalten)
 ### 2.2 Header-Felder (wire-format)
 Wir nutzen feste Breiten (stdint), um Plattformunabhängigkeit sicherzustellen.
 
-| Feld   | Typ        | Bedeutung                                          |
-|--------|------------|----------------------------------------------------|
-| `type` | `uint8_t`  | Pakettyp (HELLO/DATA/ACK/CLOSE)                    |
-| `seq`  | `uint32_t` | Sequenznummer (primär für DATA; bei HELLO/CLOSE 0) |
-| `ack`  | `uint32_t` | ACK-Nummer („next expected“) — relevant für ACK    |
-| `len`  | `uint16_t` | Länge der Payload in Bytes                         |
+Request:
 
-Payload ist **nur** bei DATA vorhanden und enthält die zu übertragenden Nutzdaten (z. B. eine Textzeile).
+| Feld       | Bedeutung                              |
+|------------|----------------------------------------|
+| `ReqType`  | 'H' = Hello, 'D' = Data, 'C' = Close   |
+| `FlNr`     | Nutzdatenlänge in Bytes                |
+| `SeNr`     | Sequenznummer (Paketnummer: 0,1,2,...  |
+| `name[512]`| Payload                                |
+
+Answer:
+
+| Feld       | Bedeutung                                 |
+|------------|-------------------------------------------|
+| `AnswType` | 'H' = Hello ACK, 'O' = Ok ACK, 'W' = 0xFF |
+| `SeNo`     | next expected (bei AnswOk)                |
+
+Payload ist nur bei DATA vorhanden und enthält die zu übertragenden Nutzdaten (z. B. eine Textzeile).
 
 ### 2.3 Byteorder
 - Alle Mehrbyte-Felder werden in **Network Byte Order (big-endian)** übertragen:
@@ -78,4 +87,5 @@ Diese Punkte sind nicht als Semantik vorgeschrieben, müssen aber einheitlich fe
 
 1) **Konkrete Kodierung von `type`** (z. B. 1..4)  
 2) **MAX_PAYLOAD** (Zahl)  
+
 3) **Slotdauer (ms)** und **Timeout in Slots** (als Vielfache der Slotdauer)
