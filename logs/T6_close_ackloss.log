@@ -1,0 +1,70 @@
+Server: listening on port 3337
+Server: lossReq = 0.000000, lossAck = 0.700000
+[Server] Socket initialized on port 3337
+[Server] Starting ARQ loop (lossReq=0.00, lossAck=0.70)
+[Server] Received packet: Type=H, SeNr=0, FlNr=0
+[Server] HELLO received
+Server: start transfer -> writing to 'out_T6.txt'
+[Server] Sent answer: Type=H, SeNo=0 (next expected)
+[Server] Received packet: Type=D, SeNr=0, FlNr=2
+[Server] DATA received: SeNr=0, FlNr=2, nextExpected=0
+[Server] Accepting DATA with correct SeNr=0
+[Server] ACK DROPPED (simulated loss) for SeNo=1
+[Server] Received packet: Type=D, SeNr=0, FlNr=2
+[Server] DATA received: SeNr=0, FlNr=2, nextExpected=1
+[Server] OUT-OF-ORDER: received SeNr=0, expected 1 -> DROPPED
+[Server] Sent answer: Type=O, SeNo=1 (next expected)
+[Server] Received packet: Type=D, SeNr=1, FlNr=2
+[Server] DATA received: SeNr=1, FlNr=2, nextExpected=1
+[Server] Accepting DATA with correct SeNr=1
+[Server] Sent answer: Type=O, SeNo=2 (next expected)
+[Server] Received packet: Type=D, SeNr=2, FlNr=2
+[Server] DATA received: SeNr=2, FlNr=2, nextExpected=2
+[Server] Accepting DATA with correct SeNr=2
+[Server] Sent answer: Type=O, SeNo=3 (next expected)
+[Server] Received packet: Type=D, SeNr=3, FlNr=2
+[Server] DATA received: SeNr=3, FlNr=2, nextExpected=3
+[Server] Accepting DATA with correct SeNr=3
+[Server] ACK DROPPED (simulated loss) for SeNo=4
+[Server] Received packet: Type=D, SeNr=3, FlNr=2
+[Server] DATA received: SeNr=3, FlNr=2, nextExpected=4
+[Server] OUT-OF-ORDER: received SeNr=3, expected 4 -> DROPPED
+[Server] ACK DROPPED (simulated loss) for SeNo=4
+[Server] Received packet: Type=D, SeNr=3, FlNr=2
+[Server] DATA received: SeNr=3, FlNr=2, nextExpected=4
+[Server] OUT-OF-ORDER: received SeNr=3, expected 4 -> DROPPED
+[Server] Sent answer: Type=O, SeNo=4 (next expected)
+[Server] Received packet: Type=D, SeNr=4, FlNr=2
+[Server] DATA received: SeNr=4, FlNr=2, nextExpected=4
+[Server] Accepting DATA with correct SeNr=4
+[Server] ACK DROPPED (simulated loss) for SeNo=5
+[Server] Received packet: Type=D, SeNr=4, FlNr=2
+[Server] DATA received: SeNr=4, FlNr=2, nextExpected=5
+[Server] OUT-OF-ORDER: received SeNr=4, expected 5 -> DROPPED
+[Server] ACK DROPPED (simulated loss) for SeNo=5
+[Server] Received packet: Type=D, SeNr=4, FlNr=2
+[Server] DATA received: SeNr=4, FlNr=2, nextExpected=5
+[Server] OUT-OF-ORDER: received SeNr=4, expected 5 -> DROPPED
+[Server] ACK DROPPED (simulated loss) for SeNo=5
+[Server] Received packet: Type=D, SeNr=4, FlNr=2
+[Server] DATA received: SeNr=4, FlNr=2, nextExpected=5
+[Server] OUT-OF-ORDER: received SeNr=4, expected 5 -> DROPPED
+[Server] ACK DROPPED (simulated loss) for SeNo=5
+[Server] Received packet: Type=D, SeNr=4, FlNr=2
+[Server] DATA received: SeNr=4, FlNr=2, nextExpected=5
+[Server] OUT-OF-ORDER: received SeNr=4, expected 5 -> DROPPED
+[Server] ACK DROPPED (simulated loss) for SeNo=5
+[Server] Received packet: Type=D, SeNr=4, FlNr=2
+[Server] DATA received: SeNr=4, FlNr=2, nextExpected=5
+[Server] OUT-OF-ORDER: received SeNr=4, expected 5 -> DROPPED
+[Server] ACK DROPPED (simulated loss) for SeNo=5
+[Server] Received packet: Type=D, SeNr=4, FlNr=2
+[Server] DATA received: SeNr=4, FlNr=2, nextExpected=5
+[Server] OUT-OF-ORDER: received SeNr=4, expected 5 -> DROPPED
+[Server] Sent answer: Type=O, SeNo=5 (next expected)
+[Server] Received packet: Type=C, SeNr=5, FlNr=0
+[Server] CLOSE received
+[Server] Sent answer: Type=O, SeNo=5 (next expected)
+[Server] Session closed, exiting loop
+[Server] Server shutdown
+[Server] arqServerLoop terminated

@@ -1,0 +1,922 @@
+Server: listening on port 3338
+Server: lossReq = 0.100000, lossAck = 0.100000
+[Server] Socket initialized on port 3338
+[Server] Starting ARQ loop (lossReq=0.10, lossAck=0.10)
+[Server] Received packet: Type=H, SeNr=0, FlNr=0
+[Server] HELLO received
+Server: start transfer -> writing to 'out_T7.txt'
+[Server] Sent answer: Type=H, SeNo=0 (next expected)
+[Server] Received packet: Type=D, SeNr=0, FlNr=7
+[Server] DATA received: SeNr=0, FlNr=7, nextExpected=0
+[Server] Accepting DATA with correct SeNr=0
+[Server] Sent answer: Type=O, SeNo=1 (next expected)
+[Server] Received packet: Type=D, SeNr=1, FlNr=7
+[Server] DATA received: SeNr=1, FlNr=7, nextExpected=1
+[Server] Accepting DATA with correct SeNr=1
+[Server] Sent answer: Type=O, SeNo=2 (next expected)
+[Server] Received packet: Type=D, SeNr=2, FlNr=7
+[Server] DATA received: SeNr=2, FlNr=7, nextExpected=2
+[Server] Accepting DATA with correct SeNr=2
+[Server] Sent answer: Type=O, SeNo=3 (next expected)
+[Server] Received packet: Type=D, SeNr=3, FlNr=7
+[Server] DATA received: SeNr=3, FlNr=7, nextExpected=3
+[Server] Accepting DATA with correct SeNr=3
+[Server] Sent answer: Type=O, SeNo=4 (next expected)
+[Server] Received packet: Type=D, SeNr=4, FlNr=7
+[Server] DATA received: SeNr=4, FlNr=7, nextExpected=4
+[Server] Accepting DATA with correct SeNr=4
+[Server] Sent answer: Type=O, SeNo=5 (next expected)
+[Server] Received packet: Type=D, SeNr=5, FlNr=7
+[Server] DATA received: SeNr=5, FlNr=7, nextExpected=5
+[Server] Accepting DATA with correct SeNr=5
+[Server] Sent answer: Type=O, SeNo=6 (next expected)
+[Server] Received packet: Type=D, SeNr=6, FlNr=7
+[Server] DATA received: SeNr=6, FlNr=7, nextExpected=6
+[Server] Accepting DATA with correct SeNr=6
+[Server] Sent answer: Type=O, SeNo=7 (next expected)
+[Server] Received packet: Type=D, SeNr=7, FlNr=7
+[Server] DATA received: SeNr=7, FlNr=7, nextExpected=7
+[Server] Accepting DATA with correct SeNr=7
+[Server] Sent answer: Type=O, SeNo=8 (next expected)
+[Server] Received packet: Type=D, SeNr=8, FlNr=7
+[Server] DATA received: SeNr=8, FlNr=7, nextExpected=8
+[Server] Accepting DATA with correct SeNr=8
+[Server] Sent answer: Type=O, SeNo=9 (next expected)
+[Server] Received packet: Type=D, SeNr=9, FlNr=8
+[Server] Request packet DROPPED (simulated loss)
+[Server] Received packet: Type=D, SeNr=9, FlNr=8
+[Server] DATA received: SeNr=9, FlNr=8, nextExpected=9
+[Server] Accepting DATA with correct SeNr=9
+[Server] Sent answer: Type=O, SeNo=10 (next expected)
+[Server] Received packet: Type=D, SeNr=10, FlNr=8
+[Server] DATA received: SeNr=10, FlNr=8, nextExpected=10
+[Server] Accepting DATA with correct SeNr=10
+[Server] Sent answer: Type=O, SeNo=11 (next expected)
+[Server] Received packet: Type=D, SeNr=11, FlNr=8
+[Server] DATA received: SeNr=11, FlNr=8, nextExpected=11
+[Server] Accepting DATA with correct SeNr=11
+[Server] Sent answer: Type=O, SeNo=12 (next expected)
+[Server] Received packet: Type=D, SeNr=12, FlNr=8
+[Server] DATA received: SeNr=12, FlNr=8, nextExpected=12
+[Server] Accepting DATA with correct SeNr=12
+[Server] Sent answer: Type=O, SeNo=13 (next expected)
+[Server] Received packet: Type=D, SeNr=13, FlNr=8
+[Server] DATA received: SeNr=13, FlNr=8, nextExpected=13
+[Server] Accepting DATA with correct SeNr=13
+[Server] Sent answer: Type=O, SeNo=14 (next expected)
+[Server] Received packet: Type=D, SeNr=14, FlNr=8
+[Server] DATA received: SeNr=14, FlNr=8, nextExpected=14
+[Server] Accepting DATA with correct SeNr=14
+[Server] Sent answer: Type=O, SeNo=15 (next expected)
+[Server] Received packet: Type=D, SeNr=15, FlNr=8
+[Server] DATA received: SeNr=15, FlNr=8, nextExpected=15
+[Server] Accepting DATA with correct SeNr=15
+[Server] Sent answer: Type=O, SeNo=16 (next expected)
+[Server] Received packet: Type=D, SeNr=16, FlNr=8
+[Server] DATA received: SeNr=16, FlNr=8, nextExpected=16
+[Server] Accepting DATA with correct SeNr=16
+[Server] Sent answer: Type=O, SeNo=17 (next expected)
+[Server] Received packet: Type=D, SeNr=17, FlNr=8
+[Server] DATA received: SeNr=17, FlNr=8, nextExpected=17
+[Server] Accepting DATA with correct SeNr=17
+[Server] Sent answer: Type=O, SeNo=18 (next expected)
+[Server] Received packet: Type=D, SeNr=18, FlNr=8
+[Server] DATA received: SeNr=18, FlNr=8, nextExpected=18
+[Server] Accepting DATA with correct SeNr=18
+[Server] Sent answer: Type=O, SeNo=19 (next expected)
+[Server] Received packet: Type=D, SeNr=19, FlNr=8
+[Server] DATA received: SeNr=19, FlNr=8, nextExpected=19
+[Server] Accepting DATA with correct SeNr=19
+[Server] Sent answer: Type=O, SeNo=20 (next expected)
+[Server] Received packet: Type=D, SeNr=20, FlNr=8
+[Server] DATA received: SeNr=20, FlNr=8, nextExpected=20
+[Server] Accepting DATA with correct SeNr=20
+[Server] Sent answer: Type=O, SeNo=21 (next expected)
+[Server] Received packet: Type=D, SeNr=21, FlNr=8
+[Server] DATA received: SeNr=21, FlNr=8, nextExpected=21
+[Server] Accepting DATA with correct SeNr=21
+[Server] Sent answer: Type=O, SeNo=22 (next expected)
+[Server] Received packet: Type=D, SeNr=22, FlNr=8
+[Server] DATA received: SeNr=22, FlNr=8, nextExpected=22
+[Server] Accepting DATA with correct SeNr=22
+[Server] ACK DROPPED (simulated loss) for SeNo=23
+[Server] Received packet: Type=D, SeNr=22, FlNr=8
+[Server] DATA received: SeNr=22, FlNr=8, nextExpected=23
+[Server] OUT-OF-ORDER: received SeNr=22, expected 23 -> DROPPED
+[Server] Sent answer: Type=O, SeNo=23 (next expected)
+[Server] Received packet: Type=D, SeNr=23, FlNr=8
+[Server] Request packet DROPPED (simulated loss)
+[Server] Received packet: Type=D, SeNr=23, FlNr=8
+[Server] DATA received: SeNr=23, FlNr=8, nextExpected=23
+[Server] Accepting DATA with correct SeNr=23
+[Server] Sent answer: Type=O, SeNo=24 (next expected)
+[Server] Received packet: Type=D, SeNr=24, FlNr=8
+[Server] DATA received: SeNr=24, FlNr=8, nextExpected=24
+[Server] Accepting DATA with correct SeNr=24
+[Server] Sent answer: Type=O, SeNo=25 (next expected)
+[Server] Received packet: Type=D, SeNr=25, FlNr=8
+[Server] Request packet DROPPED (simulated loss)
+[Server] Received packet: Type=D, SeNr=25, FlNr=8
+[Server] Request packet DROPPED (simulated loss)
+[Server] Received packet: Type=D, SeNr=25, FlNr=8
+[Server] DATA received: SeNr=25, FlNr=8, nextExpected=25
+[Server] Accepting DATA with correct SeNr=25
+[Server] ACK DROPPED (simulated loss) for SeNo=26
+[Server] Received packet: Type=D, SeNr=25, FlNr=8
+[Server] DATA received: SeNr=25, FlNr=8, nextExpected=26
+[Server] OUT-OF-ORDER: received SeNr=25, expected 26 -> DROPPED
+[Server] Sent answer: Type=O, SeNo=26 (next expected)
+[Server] Received packet: Type=D, SeNr=26, FlNr=8
+[Server] DATA received: SeNr=26, FlNr=8, nextExpected=26
+[Server] Accepting DATA with correct SeNr=26
+[Server] Sent answer: Type=O, SeNo=27 (next expected)
+[Server] Received packet: Type=D, SeNr=27, FlNr=8
+[Server] DATA received: SeNr=27, FlNr=8, nextExpected=27
+[Server] Accepting DATA with correct SeNr=27
+[Server] Sent answer: Type=O, SeNo=28 (next expected)
+[Server] Received packet: Type=D, SeNr=28, FlNr=8
+[Server] DATA received: SeNr=28, FlNr=8, nextExpected=28
+[Server] Accepting DATA with correct SeNr=28
+[Server] Sent answer: Type=O, SeNo=29 (next expected)
+[Server] Received packet: Type=D, SeNr=29, FlNr=8
+[Server] DATA received: SeNr=29, FlNr=8, nextExpected=29
+[Server] Accepting DATA with correct SeNr=29
+[Server] Sent answer: Type=O, SeNo=30 (next expected)
+[Server] Received packet: Type=D, SeNr=30, FlNr=8
+[Server] DATA received: SeNr=30, FlNr=8, nextExpected=30
+[Server] Accepting DATA with correct SeNr=30
+[Server] ACK DROPPED (simulated loss) for SeNo=31
+[Server] Received packet: Type=D, SeNr=30, FlNr=8
+[Server] DATA received: SeNr=30, FlNr=8, nextExpected=31
+[Server] OUT-OF-ORDER: received SeNr=30, expected 31 -> DROPPED
+[Server] Sent answer: Type=O, SeNo=31 (next expected)
+[Server] Received packet: Type=D, SeNr=31, FlNr=8
+[Server] DATA received: SeNr=31, FlNr=8, nextExpected=31
+[Server] Accepting DATA with correct SeNr=31
+[Server] Sent answer: Type=O, SeNo=32 (next expected)
+[Server] Received packet: Type=D, SeNr=32, FlNr=8
+[Server] DATA received: SeNr=32, FlNr=8, nextExpected=32
+[Server] Accepting DATA with correct SeNr=32
+[Server] Sent answer: Type=O, SeNo=33 (next expected)
+[Server] Received packet: Type=D, SeNr=33, FlNr=8
+[Server] DATA received: SeNr=33, FlNr=8, nextExpected=33
+[Server] Accepting DATA with correct SeNr=33
+[Server] Sent answer: Type=O, SeNo=34 (next expected)
+[Server] Received packet: Type=D, SeNr=34, FlNr=8
+[Server] DATA received: SeNr=34, FlNr=8, nextExpected=34
+[Server] Accepting DATA with correct SeNr=34
+[Server] Sent answer: Type=O, SeNo=35 (next expected)
+[Server] Received packet: Type=D, SeNr=35, FlNr=8
+[Server] DATA received: SeNr=35, FlNr=8, nextExpected=35
+[Server] Accepting DATA with correct SeNr=35
+[Server] Sent answer: Type=O, SeNo=36 (next expected)
+[Server] Received packet: Type=D, SeNr=36, FlNr=8
+[Server] DATA received: SeNr=36, FlNr=8, nextExpected=36
+[Server] Accepting DATA with correct SeNr=36
+[Server] Sent answer: Type=O, SeNo=37 (next expected)
+[Server] Received packet: Type=D, SeNr=37, FlNr=8
+[Server] DATA received: SeNr=37, FlNr=8, nextExpected=37
+[Server] Accepting DATA with correct SeNr=37
+[Server] Sent answer: Type=O, SeNo=38 (next expected)
+[Server] Received packet: Type=D, SeNr=38, FlNr=8
+[Server] DATA received: SeNr=38, FlNr=8, nextExpected=38
+[Server] Accepting DATA with correct SeNr=38
+[Server] Sent answer: Type=O, SeNo=39 (next expected)
+[Server] Received packet: Type=D, SeNr=39, FlNr=8
+[Server] DATA received: SeNr=39, FlNr=8, nextExpected=39
+[Server] Accepting DATA with correct SeNr=39
+[Server] Sent answer: Type=O, SeNo=40 (next expected)
+[Server] Received packet: Type=D, SeNr=40, FlNr=8
+[Server] DATA received: SeNr=40, FlNr=8, nextExpected=40
+[Server] Accepting DATA with correct SeNr=40
+[Server] Sent answer: Type=O, SeNo=41 (next expected)
+[Server] Received packet: Type=D, SeNr=41, FlNr=8
+[Server] DATA received: SeNr=41, FlNr=8, nextExpected=41
+[Server] Accepting DATA with correct SeNr=41
+[Server] Sent answer: Type=O, SeNo=42 (next expected)
+[Server] Received packet: Type=D, SeNr=42, FlNr=8
+[Server] DATA received: SeNr=42, FlNr=8, nextExpected=42
+[Server] Accepting DATA with correct SeNr=42
+[Server] Sent answer: Type=O, SeNo=43 (next expected)
+[Server] Received packet: Type=D, SeNr=43, FlNr=8
+[Server] DATA received: SeNr=43, FlNr=8, nextExpected=43
+[Server] Accepting DATA with correct SeNr=43
+[Server] Sent answer: Type=O, SeNo=44 (next expected)
+[Server] Received packet: Type=D, SeNr=44, FlNr=8
+[Server] DATA received: SeNr=44, FlNr=8, nextExpected=44
+[Server] Accepting DATA with correct SeNr=44
+[Server] Sent answer: Type=O, SeNo=45 (next expected)
+[Server] Received packet: Type=D, SeNr=45, FlNr=8
+[Server] DATA received: SeNr=45, FlNr=8, nextExpected=45
+[Server] Accepting DATA with correct SeNr=45
+[Server] Sent answer: Type=O, SeNo=46 (next expected)
+[Server] Received packet: Type=D, SeNr=46, FlNr=8
+[Server] DATA received: SeNr=46, FlNr=8, nextExpected=46
+[Server] Accepting DATA with correct SeNr=46
+[Server] Sent answer: Type=O, SeNo=47 (next expected)
+[Server] Received packet: Type=D, SeNr=47, FlNr=8
+[Server] DATA received: SeNr=47, FlNr=8, nextExpected=47
+[Server] Accepting DATA with correct SeNr=47
+[Server] Sent answer: Type=O, SeNo=48 (next expected)
+[Server] Received packet: Type=D, SeNr=48, FlNr=8
+[Server] DATA received: SeNr=48, FlNr=8, nextExpected=48
+[Server] Accepting DATA with correct SeNr=48
+[Server] Sent answer: Type=O, SeNo=49 (next expected)
+[Server] Received packet: Type=D, SeNr=49, FlNr=8
+[Server] DATA received: SeNr=49, FlNr=8, nextExpected=49
+[Server] Accepting DATA with correct SeNr=49
+[Server] Sent answer: Type=O, SeNo=50 (next expected)
+[Server] Received packet: Type=D, SeNr=50, FlNr=8
+[Server] DATA received: SeNr=50, FlNr=8, nextExpected=50
+[Server] Accepting DATA with correct SeNr=50
+[Server] Sent answer: Type=O, SeNo=51 (next expected)
+[Server] Received packet: Type=D, SeNr=51, FlNr=8
+[Server] DATA received: SeNr=51, FlNr=8, nextExpected=51
+[Server] Accepting DATA with correct SeNr=51
+[Server] Sent answer: Type=O, SeNo=52 (next expected)
+[Server] Received packet: Type=D, SeNr=52, FlNr=8
+[Server] DATA received: SeNr=52, FlNr=8, nextExpected=52
+[Server] Accepting DATA with correct SeNr=52
+[Server] Sent answer: Type=O, SeNo=53 (next expected)
+[Server] Received packet: Type=D, SeNr=53, FlNr=8
+[Server] DATA received: SeNr=53, FlNr=8, nextExpected=53
+[Server] Accepting DATA with correct SeNr=53
+[Server] Sent answer: Type=O, SeNo=54 (next expected)
+[Server] Received packet: Type=D, SeNr=54, FlNr=8
+[Server] DATA received: SeNr=54, FlNr=8, nextExpected=54
+[Server] Accepting DATA with correct SeNr=54
+[Server] Sent answer: Type=O, SeNo=55 (next expected)
+[Server] Received packet: Type=D, SeNr=55, FlNr=8
+[Server] DATA received: SeNr=55, FlNr=8, nextExpected=55
+[Server] Accepting DATA with correct SeNr=55
+[Server] Sent answer: Type=O, SeNo=56 (next expected)
+[Server] Received packet: Type=D, SeNr=56, FlNr=8
+[Server] DATA received: SeNr=56, FlNr=8, nextExpected=56
+[Server] Accepting DATA with correct SeNr=56
+[Server] Sent answer: Type=O, SeNo=57 (next expected)
+[Server] Received packet: Type=D, SeNr=57, FlNr=8
+[Server] DATA received: SeNr=57, FlNr=8, nextExpected=57
+[Server] Accepting DATA with correct SeNr=57
+[Server] Sent answer: Type=O, SeNo=58 (next expected)
+[Server] Received packet: Type=D, SeNr=58, FlNr=8
+[Server] DATA received: SeNr=58, FlNr=8, nextExpected=58
+[Server] Accepting DATA with correct SeNr=58
+[Server] Sent answer: Type=O, SeNo=59 (next expected)
+[Server] Received packet: Type=D, SeNr=59, FlNr=8
+[Server] DATA received: SeNr=59, FlNr=8, nextExpected=59
+[Server] Accepting DATA with correct SeNr=59
+[Server] Sent answer: Type=O, SeNo=60 (next expected)
+[Server] Received packet: Type=D, SeNr=60, FlNr=8
+[Server] DATA received: SeNr=60, FlNr=8, nextExpected=60
+[Server] Accepting DATA with correct SeNr=60
+[Server] Sent answer: Type=O, SeNo=61 (next expected)
+[Server] Received packet: Type=D, SeNr=61, FlNr=8
+[Server] DATA received: SeNr=61, FlNr=8, nextExpected=61
+[Server] Accepting DATA with correct SeNr=61
+[Server] Sent answer: Type=O, SeNo=62 (next expected)
+[Server] Received packet: Type=D, SeNr=62, FlNr=8
+[Server] DATA received: SeNr=62, FlNr=8, nextExpected=62
+[Server] Accepting DATA with correct SeNr=62
+[Server] Sent answer: Type=O, SeNo=63 (next expected)
+[Server] Received packet: Type=D, SeNr=63, FlNr=8
+[Server] DATA received: SeNr=63, FlNr=8, nextExpected=63
+[Server] Accepting DATA with correct SeNr=63
+[Server] Sent answer: Type=O, SeNo=64 (next expected)
+[Server] Received packet: Type=D, SeNr=64, FlNr=8
+[Server] Request packet DROPPED (simulated loss)
+[Server] Received packet: Type=D, SeNr=64, FlNr=8
+[Server] DATA received: SeNr=64, FlNr=8, nextExpected=64
+[Server] Accepting DATA with correct SeNr=64
+[Server] ACK DROPPED (simulated loss) for SeNo=65
+[Server] Received packet: Type=D, SeNr=64, FlNr=8
+[Server] DATA received: SeNr=64, FlNr=8, nextExpected=65
+[Server] OUT-OF-ORDER: received SeNr=64, expected 65 -> DROPPED
+[Server] Sent answer: Type=O, SeNo=65 (next expected)
+[Server] Received packet: Type=D, SeNr=65, FlNr=8
+[Server] DATA received: SeNr=65, FlNr=8, nextExpected=65
+[Server] Accepting DATA with correct SeNr=65
+[Server] Sent answer: Type=O, SeNo=66 (next expected)
+[Server] Received packet: Type=D, SeNr=66, FlNr=8
+[Server] DATA received: SeNr=66, FlNr=8, nextExpected=66
+[Server] Accepting DATA with correct SeNr=66
+[Server] Sent answer: Type=O, SeNo=67 (next expected)
+[Server] Received packet: Type=D, SeNr=67, FlNr=8
+[Server] DATA received: SeNr=67, FlNr=8, nextExpected=67
+[Server] Accepting DATA with correct SeNr=67
+[Server] Sent answer: Type=O, SeNo=68 (next expected)
+[Server] Received packet: Type=D, SeNr=68, FlNr=8
+[Server] DATA received: SeNr=68, FlNr=8, nextExpected=68
+[Server] Accepting DATA with correct SeNr=68
+[Server] ACK DROPPED (simulated loss) for SeNo=69
+[Server] Received packet: Type=D, SeNr=68, FlNr=8
+[Server] DATA received: SeNr=68, FlNr=8, nextExpected=69
+[Server] OUT-OF-ORDER: received SeNr=68, expected 69 -> DROPPED
+[Server] Sent answer: Type=O, SeNo=69 (next expected)
+[Server] Received packet: Type=D, SeNr=69, FlNr=8
+[Server] Request packet DROPPED (simulated loss)
+[Server] Received packet: Type=D, SeNr=69, FlNr=8
+[Server] Request packet DROPPED (simulated loss)
+[Server] Received packet: Type=D, SeNr=69, FlNr=8
+[Server] DATA received: SeNr=69, FlNr=8, nextExpected=69
+[Server] Accepting DATA with correct SeNr=69
+[Server] Sent answer: Type=O, SeNo=70 (next expected)
+[Server] Received packet: Type=D, SeNr=70, FlNr=8
+[Server] DATA received: SeNr=70, FlNr=8, nextExpected=70
+[Server] Accepting DATA with correct SeNr=70
+[Server] Sent answer: Type=O, SeNo=71 (next expected)
+[Server] Received packet: Type=D, SeNr=71, FlNr=8
+[Server] DATA received: SeNr=71, FlNr=8, nextExpected=71
+[Server] Accepting DATA with correct SeNr=71
+[Server] ACK DROPPED (simulated loss) for SeNo=72
+[Server] Received packet: Type=D, SeNr=71, FlNr=8
+[Server] DATA received: SeNr=71, FlNr=8, nextExpected=72
+[Server] OUT-OF-ORDER: received SeNr=71, expected 72 -> DROPPED
+[Server] Sent answer: Type=O, SeNo=72 (next expected)
+[Server] Received packet: Type=D, SeNr=72, FlNr=8
+[Server] DATA received: SeNr=72, FlNr=8, nextExpected=72
+[Server] Accepting DATA with correct SeNr=72
+[Server] Sent answer: Type=O, SeNo=73 (next expected)
+[Server] Received packet: Type=D, SeNr=73, FlNr=8
+[Server] DATA received: SeNr=73, FlNr=8, nextExpected=73
+[Server] Accepting DATA with correct SeNr=73
+[Server] Sent answer: Type=O, SeNo=74 (next expected)
+[Server] Received packet: Type=D, SeNr=74, FlNr=8
+[Server] Request packet DROPPED (simulated loss)
+[Server] Received packet: Type=D, SeNr=74, FlNr=8
+[Server] DATA received: SeNr=74, FlNr=8, nextExpected=74
+[Server] Accepting DATA with correct SeNr=74
+[Server] ACK DROPPED (simulated loss) for SeNo=75
+[Server] Received packet: Type=D, SeNr=74, FlNr=8
+[Server] Request packet DROPPED (simulated loss)
+[Server] Received packet: Type=D, SeNr=74, FlNr=8
+[Server] DATA received: SeNr=74, FlNr=8, nextExpected=75
+[Server] OUT-OF-ORDER: received SeNr=74, expected 75 -> DROPPED
+[Server] Sent answer: Type=O, SeNo=75 (next expected)
+[Server] Received packet: Type=D, SeNr=75, FlNr=8
+[Server] DATA received: SeNr=75, FlNr=8, nextExpected=75
+[Server] Accepting DATA with correct SeNr=75
+[Server] Sent answer: Type=O, SeNo=76 (next expected)
+[Server] Received packet: Type=D, SeNr=76, FlNr=8
+[Server] DATA received: SeNr=76, FlNr=8, nextExpected=76
+[Server] Accepting DATA with correct SeNr=76
+[Server] Sent answer: Type=O, SeNo=77 (next expected)
+[Server] Received packet: Type=D, SeNr=77, FlNr=8
+[Server] DATA received: SeNr=77, FlNr=8, nextExpected=77
+[Server] Accepting DATA with correct SeNr=77
+[Server] Sent answer: Type=O, SeNo=78 (next expected)
+[Server] Received packet: Type=D, SeNr=78, FlNr=8
+[Server] DATA received: SeNr=78, FlNr=8, nextExpected=78
+[Server] Accepting DATA with correct SeNr=78
+[Server] Sent answer: Type=O, SeNo=79 (next expected)
+[Server] Received packet: Type=D, SeNr=79, FlNr=8
+[Server] DATA received: SeNr=79, FlNr=8, nextExpected=79
+[Server] Accepting DATA with correct SeNr=79
+[Server] Sent answer: Type=O, SeNo=80 (next expected)
+[Server] Received packet: Type=D, SeNr=80, FlNr=8
+[Server] Request packet DROPPED (simulated loss)
+[Server] Received packet: Type=D, SeNr=80, FlNr=8
+[Server] DATA received: SeNr=80, FlNr=8, nextExpected=80
+[Server] Accepting DATA with correct SeNr=80
+[Server] Sent answer: Type=O, SeNo=81 (next expected)
+[Server] Received packet: Type=D, SeNr=81, FlNr=8
+[Server] DATA received: SeNr=81, FlNr=8, nextExpected=81
+[Server] Accepting DATA with correct SeNr=81
+[Server] Sent answer: Type=O, SeNo=82 (next expected)
+[Server] Received packet: Type=D, SeNr=82, FlNr=8
+[Server] DATA received: SeNr=82, FlNr=8, nextExpected=82
+[Server] Accepting DATA with correct SeNr=82
+[Server] Sent answer: Type=O, SeNo=83 (next expected)
+[Server] Received packet: Type=D, SeNr=83, FlNr=8
+[Server] DATA received: SeNr=83, FlNr=8, nextExpected=83
+[Server] Accepting DATA with correct SeNr=83
+[Server] Sent answer: Type=O, SeNo=84 (next expected)
+[Server] Received packet: Type=D, SeNr=84, FlNr=8
+[Server] Request packet DROPPED (simulated loss)
+[Server] Received packet: Type=D, SeNr=84, FlNr=8
+[Server] DATA received: SeNr=84, FlNr=8, nextExpected=84
+[Server] Accepting DATA with correct SeNr=84
+[Server] Sent answer: Type=O, SeNo=85 (next expected)
+[Server] Received packet: Type=D, SeNr=85, FlNr=8
+[Server] DATA received: SeNr=85, FlNr=8, nextExpected=85
+[Server] Accepting DATA with correct SeNr=85
+[Server] Sent answer: Type=O, SeNo=86 (next expected)
+[Server] Received packet: Type=D, SeNr=86, FlNr=8
+[Server] DATA received: SeNr=86, FlNr=8, nextExpected=86
+[Server] Accepting DATA with correct SeNr=86
+[Server] Sent answer: Type=O, SeNo=87 (next expected)
+[Server] Received packet: Type=D, SeNr=87, FlNr=8
+[Server] DATA received: SeNr=87, FlNr=8, nextExpected=87
+[Server] Accepting DATA with correct SeNr=87
+[Server] Sent answer: Type=O, SeNo=88 (next expected)
+[Server] Received packet: Type=D, SeNr=88, FlNr=8
+[Server] DATA received: SeNr=88, FlNr=8, nextExpected=88
+[Server] Accepting DATA with correct SeNr=88
+[Server] Sent answer: Type=O, SeNo=89 (next expected)
+[Server] Received packet: Type=D, SeNr=89, FlNr=8
+[Server] DATA received: SeNr=89, FlNr=8, nextExpected=89
+[Server] Accepting DATA with correct SeNr=89
+[Server] Sent answer: Type=O, SeNo=90 (next expected)
+[Server] Received packet: Type=D, SeNr=90, FlNr=8
+[Server] DATA received: SeNr=90, FlNr=8, nextExpected=90
+[Server] Accepting DATA with correct SeNr=90
+[Server] Sent answer: Type=O, SeNo=91 (next expected)
+[Server] Received packet: Type=D, SeNr=91, FlNr=8
+[Server] Request packet DROPPED (simulated loss)
+[Server] Received packet: Type=D, SeNr=91, FlNr=8
+[Server] DATA received: SeNr=91, FlNr=8, nextExpected=91
+[Server] Accepting DATA with correct SeNr=91
+[Server] Sent answer: Type=O, SeNo=92 (next expected)
+[Server] Received packet: Type=D, SeNr=92, FlNr=8
+[Server] DATA received: SeNr=92, FlNr=8, nextExpected=92
+[Server] Accepting DATA with correct SeNr=92
+[Server] Sent answer: Type=O, SeNo=93 (next expected)
+[Server] Received packet: Type=D, SeNr=93, FlNr=8
+[Server] DATA received: SeNr=93, FlNr=8, nextExpected=93
+[Server] Accepting DATA with correct SeNr=93
+[Server] Sent answer: Type=O, SeNo=94 (next expected)
+[Server] Received packet: Type=D, SeNr=94, FlNr=8
+[Server] DATA received: SeNr=94, FlNr=8, nextExpected=94
+[Server] Accepting DATA with correct SeNr=94
+[Server] Sent answer: Type=O, SeNo=95 (next expected)
+[Server] Received packet: Type=D, SeNr=95, FlNr=8
+[Server] Request packet DROPPED (simulated loss)
+[Server] Received packet: Type=D, SeNr=95, FlNr=8
+[Server] DATA received: SeNr=95, FlNr=8, nextExpected=95
+[Server] Accepting DATA with correct SeNr=95
+[Server] Sent answer: Type=O, SeNo=96 (next expected)
+[Server] Received packet: Type=D, SeNr=96, FlNr=8
+[Server] DATA received: SeNr=96, FlNr=8, nextExpected=96
+[Server] Accepting DATA with correct SeNr=96
+[Server] Sent answer: Type=O, SeNo=97 (next expected)
+[Server] Received packet: Type=D, SeNr=97, FlNr=8
+[Server] DATA received: SeNr=97, FlNr=8, nextExpected=97
+[Server] Accepting DATA with correct SeNr=97
+[Server] Sent answer: Type=O, SeNo=98 (next expected)
+[Server] Received packet: Type=D, SeNr=98, FlNr=8
+[Server] DATA received: SeNr=98, FlNr=8, nextExpected=98
+[Server] Accepting DATA with correct SeNr=98
+[Server] Sent answer: Type=O, SeNo=99 (next expected)
+[Server] Received packet: Type=D, SeNr=99, FlNr=9
+[Server] DATA received: SeNr=99, FlNr=9, nextExpected=99
+[Server] Accepting DATA with correct SeNr=99
+[Server] Sent answer: Type=O, SeNo=100 (next expected)
+[Server] Received packet: Type=D, SeNr=100, FlNr=9
+[Server] DATA received: SeNr=100, FlNr=9, nextExpected=100
+[Server] Accepting DATA with correct SeNr=100
+[Server] Sent answer: Type=O, SeNo=101 (next expected)
+[Server] Received packet: Type=D, SeNr=101, FlNr=9
+[Server] DATA received: SeNr=101, FlNr=9, nextExpected=101
+[Server] Accepting DATA with correct SeNr=101
+[Server] Sent answer: Type=O, SeNo=102 (next expected)
+[Server] Received packet: Type=D, SeNr=102, FlNr=9
+[Server] DATA received: SeNr=102, FlNr=9, nextExpected=102
+[Server] Accepting DATA with correct SeNr=102
+[Server] Sent answer: Type=O, SeNo=103 (next expected)
+[Server] Received packet: Type=D, SeNr=103, FlNr=9
+[Server] Request packet DROPPED (simulated loss)
+[Server] Received packet: Type=D, SeNr=103, FlNr=9
+[Server] DATA received: SeNr=103, FlNr=9, nextExpected=103
+[Server] Accepting DATA with correct SeNr=103
+[Server] Sent answer: Type=O, SeNo=104 (next expected)
+[Server] Received packet: Type=D, SeNr=104, FlNr=9
+[Server] DATA received: SeNr=104, FlNr=9, nextExpected=104
+[Server] Accepting DATA with correct SeNr=104
+[Server] Sent answer: Type=O, SeNo=105 (next expected)
+[Server] Received packet: Type=D, SeNr=105, FlNr=9
+[Server] DATA received: SeNr=105, FlNr=9, nextExpected=105
+[Server] Accepting DATA with correct SeNr=105
+[Server] Sent answer: Type=O, SeNo=106 (next expected)
+[Server] Received packet: Type=D, SeNr=106, FlNr=9
+[Server] DATA received: SeNr=106, FlNr=9, nextExpected=106
+[Server] Accepting DATA with correct SeNr=106
+[Server] Sent answer: Type=O, SeNo=107 (next expected)
+[Server] Received packet: Type=D, SeNr=107, FlNr=9
+[Server] DATA received: SeNr=107, FlNr=9, nextExpected=107
+[Server] Accepting DATA with correct SeNr=107
+[Server] Sent answer: Type=O, SeNo=108 (next expected)
+[Server] Received packet: Type=D, SeNr=108, FlNr=9
+[Server] DATA received: SeNr=108, FlNr=9, nextExpected=108
+[Server] Accepting DATA with correct SeNr=108
+[Server] ACK DROPPED (simulated loss) for SeNo=109
+[Server] Received packet: Type=D, SeNr=108, FlNr=9
+[Server] DATA received: SeNr=108, FlNr=9, nextExpected=109
+[Server] OUT-OF-ORDER: received SeNr=108, expected 109 -> DROPPED
+[Server] Sent answer: Type=O, SeNo=109 (next expected)
+[Server] Received packet: Type=D, SeNr=109, FlNr=9
+[Server] DATA received: SeNr=109, FlNr=9, nextExpected=109
+[Server] Accepting DATA with correct SeNr=109
+[Server] Sent answer: Type=O, SeNo=110 (next expected)
+[Server] Received packet: Type=D, SeNr=110, FlNr=9
+[Server] DATA received: SeNr=110, FlNr=9, nextExpected=110
+[Server] Accepting DATA with correct SeNr=110
+[Server] Sent answer: Type=O, SeNo=111 (next expected)
+[Server] Received packet: Type=D, SeNr=111, FlNr=9
+[Server] DATA received: SeNr=111, FlNr=9, nextExpected=111
+[Server] Accepting DATA with correct SeNr=111
+[Server] Sent answer: Type=O, SeNo=112 (next expected)
+[Server] Received packet: Type=D, SeNr=112, FlNr=9
+[Server] DATA received: SeNr=112, FlNr=9, nextExpected=112
+[Server] Accepting DATA with correct SeNr=112
+[Server] Sent answer: Type=O, SeNo=113 (next expected)
+[Server] Received packet: Type=D, SeNr=113, FlNr=9
+[Server] DATA received: SeNr=113, FlNr=9, nextExpected=113
+[Server] Accepting DATA with correct SeNr=113
+[Server] Sent answer: Type=O, SeNo=114 (next expected)
+[Server] Received packet: Type=D, SeNr=114, FlNr=9
+[Server] DATA received: SeNr=114, FlNr=9, nextExpected=114
+[Server] Accepting DATA with correct SeNr=114
+[Server] Sent answer: Type=O, SeNo=115 (next expected)
+[Server] Received packet: Type=D, SeNr=115, FlNr=9
+[Server] DATA received: SeNr=115, FlNr=9, nextExpected=115
+[Server] Accepting DATA with correct SeNr=115
+[Server] Sent answer: Type=O, SeNo=116 (next expected)
+[Server] Received packet: Type=D, SeNr=116, FlNr=9
+[Server] DATA received: SeNr=116, FlNr=9, nextExpected=116
+[Server] Accepting DATA with correct SeNr=116
+[Server] ACK DROPPED (simulated loss) for SeNo=117
+[Server] Received packet: Type=D, SeNr=116, FlNr=9
+[Server] DATA received: SeNr=116, FlNr=9, nextExpected=117
+[Server] OUT-OF-ORDER: received SeNr=116, expected 117 -> DROPPED
+[Server] Sent answer: Type=O, SeNo=117 (next expected)
+[Server] Received packet: Type=D, SeNr=117, FlNr=9
+[Server] DATA received: SeNr=117, FlNr=9, nextExpected=117
+[Server] Accepting DATA with correct SeNr=117
+[Server] ACK DROPPED (simulated loss) for SeNo=118
+[Server] Received packet: Type=D, SeNr=117, FlNr=9
+[Server] DATA received: SeNr=117, FlNr=9, nextExpected=118
+[Server] OUT-OF-ORDER: received SeNr=117, expected 118 -> DROPPED
+[Server] Sent answer: Type=O, SeNo=118 (next expected)
+[Server] Received packet: Type=D, SeNr=118, FlNr=9
+[Server] DATA received: SeNr=118, FlNr=9, nextExpected=118
+[Server] Accepting DATA with correct SeNr=118
+[Server] Sent answer: Type=O, SeNo=119 (next expected)
+[Server] Received packet: Type=D, SeNr=119, FlNr=9
+[Server] DATA received: SeNr=119, FlNr=9, nextExpected=119
+[Server] Accepting DATA with correct SeNr=119
+[Server] Sent answer: Type=O, SeNo=120 (next expected)
+[Server] Received packet: Type=D, SeNr=120, FlNr=9
+[Server] DATA received: SeNr=120, FlNr=9, nextExpected=120
+[Server] Accepting DATA with correct SeNr=120
+[Server] Sent answer: Type=O, SeNo=121 (next expected)
+[Server] Received packet: Type=D, SeNr=121, FlNr=9
+[Server] DATA received: SeNr=121, FlNr=9, nextExpected=121
+[Server] Accepting DATA with correct SeNr=121
+[Server] Sent answer: Type=O, SeNo=122 (next expected)
+[Server] Received packet: Type=D, SeNr=122, FlNr=9
+[Server] DATA received: SeNr=122, FlNr=9, nextExpected=122
+[Server] Accepting DATA with correct SeNr=122
+[Server] ACK DROPPED (simulated loss) for SeNo=123
+[Server] Received packet: Type=D, SeNr=122, FlNr=9
+[Server] DATA received: SeNr=122, FlNr=9, nextExpected=123
+[Server] OUT-OF-ORDER: received SeNr=122, expected 123 -> DROPPED
+[Server] Sent answer: Type=O, SeNo=123 (next expected)
+[Server] Received packet: Type=D, SeNr=123, FlNr=9
+[Server] DATA received: SeNr=123, FlNr=9, nextExpected=123
+[Server] Accepting DATA with correct SeNr=123
+[Server] Sent answer: Type=O, SeNo=124 (next expected)
+[Server] Received packet: Type=D, SeNr=124, FlNr=9
+[Server] DATA received: SeNr=124, FlNr=9, nextExpected=124
+[Server] Accepting DATA with correct SeNr=124
+[Server] Sent answer: Type=O, SeNo=125 (next expected)
+[Server] Received packet: Type=D, SeNr=125, FlNr=9
+[Server] DATA received: SeNr=125, FlNr=9, nextExpected=125
+[Server] Accepting DATA with correct SeNr=125
+[Server] Sent answer: Type=O, SeNo=126 (next expected)
+[Server] Received packet: Type=D, SeNr=126, FlNr=9
+[Server] DATA received: SeNr=126, FlNr=9, nextExpected=126
+[Server] Accepting DATA with correct SeNr=126
+[Server] Sent answer: Type=O, SeNo=127 (next expected)
+[Server] Received packet: Type=D, SeNr=127, FlNr=9
+[Server] DATA received: SeNr=127, FlNr=9, nextExpected=127
+[Server] Accepting DATA with correct SeNr=127
+[Server] Sent answer: Type=O, SeNo=128 (next expected)
+[Server] Received packet: Type=D, SeNr=128, FlNr=9
+[Server] DATA received: SeNr=128, FlNr=9, nextExpected=128
+[Server] Accepting DATA with correct SeNr=128
+[Server] Sent answer: Type=O, SeNo=129 (next expected)
+[Server] Received packet: Type=D, SeNr=129, FlNr=9
+[Server] DATA received: SeNr=129, FlNr=9, nextExpected=129
+[Server] Accepting DATA with correct SeNr=129
+[Server] Sent answer: Type=O, SeNo=130 (next expected)
+[Server] Received packet: Type=D, SeNr=130, FlNr=9
+[Server] DATA received: SeNr=130, FlNr=9, nextExpected=130
+[Server] Accepting DATA with correct SeNr=130
+[Server] Sent answer: Type=O, SeNo=131 (next expected)
+[Server] Received packet: Type=D, SeNr=131, FlNr=9
+[Server] DATA received: SeNr=131, FlNr=9, nextExpected=131
+[Server] Accepting DATA with correct SeNr=131
+[Server] Sent answer: Type=O, SeNo=132 (next expected)
+[Server] Received packet: Type=D, SeNr=132, FlNr=9
+[Server] DATA received: SeNr=132, FlNr=9, nextExpected=132
+[Server] Accepting DATA with correct SeNr=132
+[Server] Sent answer: Type=O, SeNo=133 (next expected)
+[Server] Received packet: Type=D, SeNr=133, FlNr=9
+[Server] DATA received: SeNr=133, FlNr=9, nextExpected=133
+[Server] Accepting DATA with correct SeNr=133
+[Server] Sent answer: Type=O, SeNo=134 (next expected)
+[Server] Received packet: Type=D, SeNr=134, FlNr=9
+[Server] DATA received: SeNr=134, FlNr=9, nextExpected=134
+[Server] Accepting DATA with correct SeNr=134
+[Server] Sent answer: Type=O, SeNo=135 (next expected)
+[Server] Received packet: Type=D, SeNr=135, FlNr=9
+[Server] DATA received: SeNr=135, FlNr=9, nextExpected=135
+[Server] Accepting DATA with correct SeNr=135
+[Server] Sent answer: Type=O, SeNo=136 (next expected)
+[Server] Received packet: Type=D, SeNr=136, FlNr=9
+[Server] DATA received: SeNr=136, FlNr=9, nextExpected=136
+[Server] Accepting DATA with correct SeNr=136
+[Server] Sent answer: Type=O, SeNo=137 (next expected)
+[Server] Received packet: Type=D, SeNr=137, FlNr=9
+[Server] DATA received: SeNr=137, FlNr=9, nextExpected=137
+[Server] Accepting DATA with correct SeNr=137
+[Server] Sent answer: Type=O, SeNo=138 (next expected)
+[Server] Received packet: Type=D, SeNr=138, FlNr=9
+[Server] DATA received: SeNr=138, FlNr=9, nextExpected=138
+[Server] Accepting DATA with correct SeNr=138
+[Server] Sent answer: Type=O, SeNo=139 (next expected)
+[Server] Received packet: Type=D, SeNr=139, FlNr=9
+[Server] DATA received: SeNr=139, FlNr=9, nextExpected=139
+[Server] Accepting DATA with correct SeNr=139
+[Server] Sent answer: Type=O, SeNo=140 (next expected)
+[Server] Received packet: Type=D, SeNr=140, FlNr=9
+[Server] DATA received: SeNr=140, FlNr=9, nextExpected=140
+[Server] Accepting DATA with correct SeNr=140
+[Server] Sent answer: Type=O, SeNo=141 (next expected)
+[Server] Received packet: Type=D, SeNr=141, FlNr=9
+[Server] DATA received: SeNr=141, FlNr=9, nextExpected=141
+[Server] Accepting DATA with correct SeNr=141
+[Server] Sent answer: Type=O, SeNo=142 (next expected)
+[Server] Received packet: Type=D, SeNr=142, FlNr=9
+[Server] DATA received: SeNr=142, FlNr=9, nextExpected=142
+[Server] Accepting DATA with correct SeNr=142
+[Server] Sent answer: Type=O, SeNo=143 (next expected)
+[Server] Received packet: Type=D, SeNr=143, FlNr=9
+[Server] DATA received: SeNr=143, FlNr=9, nextExpected=143
+[Server] Accepting DATA with correct SeNr=143
+[Server] Sent answer: Type=O, SeNo=144 (next expected)
+[Server] Received packet: Type=D, SeNr=144, FlNr=9
+[Server] DATA received: SeNr=144, FlNr=9, nextExpected=144
+[Server] Accepting DATA with correct SeNr=144
+[Server] Sent answer: Type=O, SeNo=145 (next expected)
+[Server] Received packet: Type=D, SeNr=145, FlNr=9
+[Server] DATA received: SeNr=145, FlNr=9, nextExpected=145
+[Server] Accepting DATA with correct SeNr=145
+[Server] Sent answer: Type=O, SeNo=146 (next expected)
+[Server] Received packet: Type=D, SeNr=146, FlNr=9
+[Server] DATA received: SeNr=146, FlNr=9, nextExpected=146
+[Server] Accepting DATA with correct SeNr=146
+[Server] Sent answer: Type=O, SeNo=147 (next expected)
+[Server] Received packet: Type=D, SeNr=147, FlNr=9
+[Server] DATA received: SeNr=147, FlNr=9, nextExpected=147
+[Server] Accepting DATA with correct SeNr=147
+[Server] Sent answer: Type=O, SeNo=148 (next expected)
+[Server] Received packet: Type=D, SeNr=148, FlNr=9
+[Server] DATA received: SeNr=148, FlNr=9, nextExpected=148
+[Server] Accepting DATA with correct SeNr=148
+[Server] Sent answer: Type=O, SeNo=149 (next expected)
+[Server] Received packet: Type=D, SeNr=149, FlNr=9
+[Server] DATA received: SeNr=149, FlNr=9, nextExpected=149
+[Server] Accepting DATA with correct SeNr=149
+[Server] Sent answer: Type=O, SeNo=150 (next expected)
+[Server] Received packet: Type=D, SeNr=150, FlNr=9
+[Server] DATA received: SeNr=150, FlNr=9, nextExpected=150
+[Server] Accepting DATA with correct SeNr=150
+[Server] Sent answer: Type=O, SeNo=151 (next expected)
+[Server] Received packet: Type=D, SeNr=151, FlNr=9
+[Server] DATA received: SeNr=151, FlNr=9, nextExpected=151
+[Server] Accepting DATA with correct SeNr=151
+[Server] ACK DROPPED (simulated loss) for SeNo=152
+[Server] Received packet: Type=D, SeNr=151, FlNr=9
+[Server] DATA received: SeNr=151, FlNr=9, nextExpected=152
+[Server] OUT-OF-ORDER: received SeNr=151, expected 152 -> DROPPED
+[Server] Sent answer: Type=O, SeNo=152 (next expected)
+[Server] Received packet: Type=D, SeNr=152, FlNr=9
+[Server] DATA received: SeNr=152, FlNr=9, nextExpected=152
+[Server] Accepting DATA with correct SeNr=152
+[Server] Sent answer: Type=O, SeNo=153 (next expected)
+[Server] Received packet: Type=D, SeNr=153, FlNr=9
+[Server] DATA received: SeNr=153, FlNr=9, nextExpected=153
+[Server] Accepting DATA with correct SeNr=153
+[Server] ACK DROPPED (simulated loss) for SeNo=154
+[Server] Received packet: Type=D, SeNr=153, FlNr=9
+[Server] DATA received: SeNr=153, FlNr=9, nextExpected=154
+[Server] OUT-OF-ORDER: received SeNr=153, expected 154 -> DROPPED
+[Server] Sent answer: Type=O, SeNo=154 (next expected)
+[Server] Received packet: Type=D, SeNr=154, FlNr=9
+[Server] DATA received: SeNr=154, FlNr=9, nextExpected=154
+[Server] Accepting DATA with correct SeNr=154
+[Server] Sent answer: Type=O, SeNo=155 (next expected)
+[Server] Received packet: Type=D, SeNr=155, FlNr=9
+[Server] DATA received: SeNr=155, FlNr=9, nextExpected=155
+[Server] Accepting DATA with correct SeNr=155
+[Server] Sent answer: Type=O, SeNo=156 (next expected)
+[Server] Received packet: Type=D, SeNr=156, FlNr=9
+[Server] DATA received: SeNr=156, FlNr=9, nextExpected=156
+[Server] Accepting DATA with correct SeNr=156
+[Server] Sent answer: Type=O, SeNo=157 (next expected)
+[Server] Received packet: Type=D, SeNr=157, FlNr=9
+[Server] DATA received: SeNr=157, FlNr=9, nextExpected=157
+[Server] Accepting DATA with correct SeNr=157
+[Server] Sent answer: Type=O, SeNo=158 (next expected)
+[Server] Received packet: Type=D, SeNr=158, FlNr=9
+[Server] DATA received: SeNr=158, FlNr=9, nextExpected=158
+[Server] Accepting DATA with correct SeNr=158
+[Server] Sent answer: Type=O, SeNo=159 (next expected)
+[Server] Received packet: Type=D, SeNr=159, FlNr=9
+[Server] DATA received: SeNr=159, FlNr=9, nextExpected=159
+[Server] Accepting DATA with correct SeNr=159
+[Server] Sent answer: Type=O, SeNo=160 (next expected)
+[Server] Received packet: Type=D, SeNr=160, FlNr=9
+[Server] DATA received: SeNr=160, FlNr=9, nextExpected=160
+[Server] Accepting DATA with correct SeNr=160
+[Server] Sent answer: Type=O, SeNo=161 (next expected)
+[Server] Received packet: Type=D, SeNr=161, FlNr=9
+[Server] DATA received: SeNr=161, FlNr=9, nextExpected=161
+[Server] Accepting DATA with correct SeNr=161
+[Server] Sent answer: Type=O, SeNo=162 (next expected)
+[Server] Received packet: Type=D, SeNr=162, FlNr=9
+[Server] DATA received: SeNr=162, FlNr=9, nextExpected=162
+[Server] Accepting DATA with correct SeNr=162
+[Server] Sent answer: Type=O, SeNo=163 (next expected)
+[Server] Received packet: Type=D, SeNr=163, FlNr=9
+[Server] DATA received: SeNr=163, FlNr=9, nextExpected=163
+[Server] Accepting DATA with correct SeNr=163
+[Server] Sent answer: Type=O, SeNo=164 (next expected)
+[Server] Received packet: Type=D, SeNr=164, FlNr=9
+[Server] DATA received: SeNr=164, FlNr=9, nextExpected=164
+[Server] Accepting DATA with correct SeNr=164
+[Server] Sent answer: Type=O, SeNo=165 (next expected)
+[Server] Received packet: Type=D, SeNr=165, FlNr=9
+[Server] DATA received: SeNr=165, FlNr=9, nextExpected=165
+[Server] Accepting DATA with correct SeNr=165
+[Server] ACK DROPPED (simulated loss) for SeNo=166
+[Server] Received packet: Type=D, SeNr=165, FlNr=9
+[Server] DATA received: SeNr=165, FlNr=9, nextExpected=166
+[Server] OUT-OF-ORDER: received SeNr=165, expected 166 -> DROPPED
+[Server] Sent answer: Type=O, SeNo=166 (next expected)
+[Server] Received packet: Type=D, SeNr=166, FlNr=9
+[Server] DATA received: SeNr=166, FlNr=9, nextExpected=166
+[Server] Accepting DATA with correct SeNr=166
+[Server] Sent answer: Type=O, SeNo=167 (next expected)
+[Server] Received packet: Type=D, SeNr=167, FlNr=9
+[Server] DATA received: SeNr=167, FlNr=9, nextExpected=167
+[Server] Accepting DATA with correct SeNr=167
+[Server] Sent answer: Type=O, SeNo=168 (next expected)
+[Server] Received packet: Type=D, SeNr=168, FlNr=9
+[Server] Request packet DROPPED (simulated loss)
+[Server] Received packet: Type=D, SeNr=168, FlNr=9
+[Server] DATA received: SeNr=168, FlNr=9, nextExpected=168
+[Server] Accepting DATA with correct SeNr=168
+[Server] Sent answer: Type=O, SeNo=169 (next expected)
+[Server] Received packet: Type=D, SeNr=169, FlNr=9
+[Server] DATA received: SeNr=169, FlNr=9, nextExpected=169
+[Server] Accepting DATA with correct SeNr=169
+[Server] Sent answer: Type=O, SeNo=170 (next expected)
+[Server] Received packet: Type=D, SeNr=170, FlNr=9
+[Server] DATA received: SeNr=170, FlNr=9, nextExpected=170
+[Server] Accepting DATA with correct SeNr=170
+[Server] Sent answer: Type=O, SeNo=171 (next expected)
+[Server] Received packet: Type=D, SeNr=171, FlNr=9
+[Server] Request packet DROPPED (simulated loss)
+[Server] Received packet: Type=D, SeNr=171, FlNr=9
+[Server] Request packet DROPPED (simulated loss)
+[Server] Received packet: Type=D, SeNr=171, FlNr=9
+[Server] DATA received: SeNr=171, FlNr=9, nextExpected=171
+[Server] Accepting DATA with correct SeNr=171
+[Server] Sent answer: Type=O, SeNo=172 (next expected)
+[Server] Received packet: Type=D, SeNr=172, FlNr=9
+[Server] DATA received: SeNr=172, FlNr=9, nextExpected=172
+[Server] Accepting DATA with correct SeNr=172
+[Server] Sent answer: Type=O, SeNo=173 (next expected)
+[Server] Received packet: Type=D, SeNr=173, FlNr=9
+[Server] DATA received: SeNr=173, FlNr=9, nextExpected=173
+[Server] Accepting DATA with correct SeNr=173
+[Server] ACK DROPPED (simulated loss) for SeNo=174
+[Server] Received packet: Type=D, SeNr=173, FlNr=9
+[Server] Request packet DROPPED (simulated loss)
+[Server] Received packet: Type=D, SeNr=173, FlNr=9
+[Server] DATA received: SeNr=173, FlNr=9, nextExpected=174
+[Server] OUT-OF-ORDER: received SeNr=173, expected 174 -> DROPPED
+[Server] Sent answer: Type=O, SeNo=174 (next expected)
+[Server] Received packet: Type=D, SeNr=174, FlNr=9
+[Server] DATA received: SeNr=174, FlNr=9, nextExpected=174
+[Server] Accepting DATA with correct SeNr=174
+[Server] Sent answer: Type=O, SeNo=175 (next expected)
+[Server] Received packet: Type=D, SeNr=175, FlNr=9
+[Server] DATA received: SeNr=175, FlNr=9, nextExpected=175
+[Server] Accepting DATA with correct SeNr=175
+[Server] Sent answer: Type=O, SeNo=176 (next expected)
+[Server] Received packet: Type=D, SeNr=176, FlNr=9
+[Server] DATA received: SeNr=176, FlNr=9, nextExpected=176
+[Server] Accepting DATA with correct SeNr=176
+[Server] Sent answer: Type=O, SeNo=177 (next expected)
+[Server] Received packet: Type=D, SeNr=177, FlNr=9
+[Server] DATA received: SeNr=177, FlNr=9, nextExpected=177
+[Server] Accepting DATA with correct SeNr=177
+[Server] Sent answer: Type=O, SeNo=178 (next expected)
+[Server] Received packet: Type=D, SeNr=178, FlNr=9
+[Server] DATA received: SeNr=178, FlNr=9, nextExpected=178
+[Server] Accepting DATA with correct SeNr=178
+[Server] Sent answer: Type=O, SeNo=179 (next expected)
+[Server] Received packet: Type=D, SeNr=179, FlNr=9
+[Server] DATA received: SeNr=179, FlNr=9, nextExpected=179
+[Server] Accepting DATA with correct SeNr=179
+[Server] Sent answer: Type=O, SeNo=180 (next expected)
+[Server] Received packet: Type=D, SeNr=180, FlNr=9
+[Server] DATA received: SeNr=180, FlNr=9, nextExpected=180
+[Server] Accepting DATA with correct SeNr=180
+[Server] Sent answer: Type=O, SeNo=181 (next expected)
+[Server] Received packet: Type=D, SeNr=181, FlNr=9
+[Server] DATA received: SeNr=181, FlNr=9, nextExpected=181
+[Server] Accepting DATA with correct SeNr=181
+[Server] Sent answer: Type=O, SeNo=182 (next expected)
+[Server] Received packet: Type=D, SeNr=182, FlNr=9
+[Server] DATA received: SeNr=182, FlNr=9, nextExpected=182
+[Server] Accepting DATA with correct SeNr=182
+[Server] Sent answer: Type=O, SeNo=183 (next expected)
+[Server] Received packet: Type=D, SeNr=183, FlNr=9
+[Server] Request packet DROPPED (simulated loss)
+[Server] Received packet: Type=D, SeNr=183, FlNr=9
+[Server] Request packet DROPPED (simulated loss)
+[Server] Received packet: Type=D, SeNr=183, FlNr=9
+[Server] DATA received: SeNr=183, FlNr=9, nextExpected=183
+[Server] Accepting DATA with correct SeNr=183
+[Server] Sent answer: Type=O, SeNo=184 (next expected)
+[Server] Received packet: Type=D, SeNr=184, FlNr=9
+[Server] DATA received: SeNr=184, FlNr=9, nextExpected=184
+[Server] Accepting DATA with correct SeNr=184
+[Server] Sent answer: Type=O, SeNo=185 (next expected)
+[Server] Received packet: Type=D, SeNr=185, FlNr=9
+[Server] DATA received: SeNr=185, FlNr=9, nextExpected=185
+[Server] Accepting DATA with correct SeNr=185
+[Server] Sent answer: Type=O, SeNo=186 (next expected)
+[Server] Received packet: Type=D, SeNr=186, FlNr=9
+[Server] DATA received: SeNr=186, FlNr=9, nextExpected=186
+[Server] Accepting DATA with correct SeNr=186
+[Server] Sent answer: Type=O, SeNo=187 (next expected)
+[Server] Received packet: Type=D, SeNr=187, FlNr=9
+[Server] DATA received: SeNr=187, FlNr=9, nextExpected=187
+[Server] Accepting DATA with correct SeNr=187
+[Server] Sent answer: Type=O, SeNo=188 (next expected)
+[Server] Received packet: Type=D, SeNr=188, FlNr=9
+[Server] DATA received: SeNr=188, FlNr=9, nextExpected=188
+[Server] Accepting DATA with correct SeNr=188
+[Server] ACK DROPPED (simulated loss) for SeNo=189
+[Server] Received packet: Type=D, SeNr=188, FlNr=9
+[Server] DATA received: SeNr=188, FlNr=9, nextExpected=189
+[Server] OUT-OF-ORDER: received SeNr=188, expected 189 -> DROPPED
+[Server] Sent answer: Type=O, SeNo=189 (next expected)
+[Server] Received packet: Type=D, SeNr=189, FlNr=9
+[Server] DATA received: SeNr=189, FlNr=9, nextExpected=189
+[Server] Accepting DATA with correct SeNr=189
+[Server] Sent answer: Type=O, SeNo=190 (next expected)
+[Server] Received packet: Type=D, SeNr=190, FlNr=9
+[Server] DATA received: SeNr=190, FlNr=9, nextExpected=190
+[Server] Accepting DATA with correct SeNr=190
+[Server] Sent answer: Type=O, SeNo=191 (next expected)
+[Server] Received packet: Type=D, SeNr=191, FlNr=9
+[Server] DATA received: SeNr=191, FlNr=9, nextExpected=191
+[Server] Accepting DATA with correct SeNr=191
+[Server] Sent answer: Type=O, SeNo=192 (next expected)
+[Server] Received packet: Type=D, SeNr=192, FlNr=9
+[Server] DATA received: SeNr=192, FlNr=9, nextExpected=192
+[Server] Accepting DATA with correct SeNr=192
+[Server] Sent answer: Type=O, SeNo=193 (next expected)
+[Server] Received packet: Type=D, SeNr=193, FlNr=9
+[Server] DATA received: SeNr=193, FlNr=9, nextExpected=193
+[Server] Accepting DATA with correct SeNr=193
+[Server] Sent answer: Type=O, SeNo=194 (next expected)
+[Server] Received packet: Type=D, SeNr=194, FlNr=9
+[Server] DATA received: SeNr=194, FlNr=9, nextExpected=194
+[Server] Accepting DATA with correct SeNr=194
+[Server] Sent answer: Type=O, SeNo=195 (next expected)
+[Server] Received packet: Type=D, SeNr=195, FlNr=9
+[Server] DATA received: SeNr=195, FlNr=9, nextExpected=195
+[Server] Accepting DATA with correct SeNr=195
+[Server] Sent answer: Type=O, SeNo=196 (next expected)
+[Server] Received packet: Type=D, SeNr=196, FlNr=9
+[Server] DATA received: SeNr=196, FlNr=9, nextExpected=196
+[Server] Accepting DATA with correct SeNr=196
+[Server] Sent answer: Type=O, SeNo=197 (next expected)
+[Server] Received packet: Type=D, SeNr=197, FlNr=9
+[Server] DATA received: SeNr=197, FlNr=9, nextExpected=197
+[Server] Accepting DATA with correct SeNr=197
+[Server] Sent answer: Type=O, SeNo=198 (next expected)
+[Server] Received packet: Type=D, SeNr=198, FlNr=9
+[Server] DATA received: SeNr=198, FlNr=9, nextExpected=198
+[Server] Accepting DATA with correct SeNr=198
+[Server] ACK DROPPED (simulated loss) for SeNo=199
+[Server] Received packet: Type=D, SeNr=198, FlNr=9
+[Server] DATA received: SeNr=198, FlNr=9, nextExpected=199
+[Server] OUT-OF-ORDER: received SeNr=198, expected 199 -> DROPPED
+[Server] Sent answer: Type=O, SeNo=199 (next expected)
+[Server] Received packet: Type=D, SeNr=199, FlNr=9
+[Server] DATA received: SeNr=199, FlNr=9, nextExpected=199
+[Server] Accepting DATA with correct SeNr=199
+[Server] Sent answer: Type=O, SeNo=200 (next expected)
+[Server] Received packet: Type=C, SeNr=200, FlNr=0
+[Server] CLOSE received
+[Server] Sent answer: Type=O, SeNo=200 (next expected)
+[Server] Session closed, exiting loop
+[Server] Server shutdown
+[Server] arqServerLoop terminated
