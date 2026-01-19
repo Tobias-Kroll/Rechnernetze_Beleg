@@ -12,14 +12,14 @@ Ohne Threads, genau ein Socket pro Instanz.
 make
 ```
 
-## Run (muss ergänzt werden)
+## Ru
 ```bash
+
 # Server
-./server <IPv6-Adresse> <Port> <Output-Datei> [Optionen...]
+./server -p <port> -f <outfile> [-r <lossReq>] [-a <lossAck>]
 
 # Client
-./client <IPv6-Adresse> <Port> <Input-Datei> <Window 1..10> [Optionen...]
-```
+./client -a <server> -p <port> -f <file> -w <window>
 
 ## Doku / QA Artefakte
 - `PACKET_CONTRACT.md` — gemeinsames Paketformat + Semantik + Meeting-Checkliste
@@ -32,3 +32,4 @@ make
 - Loss-Szenarien: ACK-Verlust, Paketverlust (per Argument) getestet
 - HELLO/CLOSE Fehlerfälle getestet
 - Diagramme erstellt und in `diagramme/` abgelegt
+
